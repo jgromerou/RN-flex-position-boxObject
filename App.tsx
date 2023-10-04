@@ -6,6 +6,7 @@ import PositionScreen from './src/screen/PositionScreen';
 import { FlexScreen } from './src/screen/FlexScreen';
 import { Tarea1Sceen } from './src/screen/Tarea1Sceen';
 import { Tarea2Sceen } from './src/screen/Tarea2Sceen';
+import { Tarea3Sceen } from './src/screen/Tarea3Screen';
 
 export default function App() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
       {/* <PositionScreen /> */}
       {/* <FlexScreen /> */}
       {/* <Tarea1Sceen /> */}
-      <Tarea2Sceen />
+      {/* <Tarea2Sceen /> */}
+      <Tarea3Sceen />
     </SafeAreaView>
   );
 }
