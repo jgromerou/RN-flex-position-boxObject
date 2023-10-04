@@ -10,6 +10,7 @@ import { Tarea3Screen } from './src/screen/Tarea3Screen';
 import { Tarea4Screen } from './src/screen/Tarea4Screen';
 import { Tarea5Screen } from './src/screen/Tarea5Screen';
 import { Tarea6Screen } from './src/screen/Tarea6Screen';
+import { Tarea7Screen } from './src/screen/Tarea7Screen';
 
 export default function App() {
   return (
@@ -29,7 +30,8 @@ export default function App() {
       {/* <Tarea3Screen /> */}
       {/* <Tarea4Screen /> */}
       {/* <Tarea5Screen /> */}
-      <Tarea6Screen />
+      {/* <Tarea6Screen /> */}
+      <Tarea7Screen />
     </SafeAreaView>
   );
 }
