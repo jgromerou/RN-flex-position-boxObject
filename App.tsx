@@ -5,6 +5,7 @@ import { DimensionesScreen } from './src/screen/DimensionesScreen';
 import PositionScreen from './src/screen/PositionScreen';
 import { FlexScreen } from './src/screen/FlexScreen';
 import { Tarea1Sceen } from './src/screen/Tarea1Sceen';
+import { Tarea2Sceen } from './src/screen/Tarea2Sceen';
 
 export default function App() {
   return (
@@ -19,7 +20,8 @@ export default function App() {
       {/* <DimensionesScreen /> */}
       {/* <PositionScreen /> */}
       {/* <FlexScreen /> */}
-      <Tarea1Sceen />
+      {/* <Tarea1Sceen /> */}
+      <Tarea2Sceen />
     </SafeAreaView>
   );
 }
