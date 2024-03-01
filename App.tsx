@@ -24,7 +24,7 @@ export default function App() {
         paddingTop: Platform.OS === 'android' ? 24 : 0,
       }}
     >
-      {/* <BoxObjectModelScreen /> */}
+      <BoxObjectModelScreen />
       {/* <DimensionesScreen /> */}
       {/* <PositionScreen /> */}
       {/* <FlexScreen /> */}
@@ -37,7 +37,7 @@ export default function App() {
       {/* <Tarea7Screen /> */}
       {/* <Tarea8Screen /> */}
       {/* <Tarea9Screen /> */}
-      <Tarea10Screen />
+      {/* <Tarea10Screen /> */}
     </SafeAreaView>
   );
 }
